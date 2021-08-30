@@ -8,13 +8,11 @@ import Services from './Components/Services'
 function App() {
   return (
     <Router>
-
       <div className="App">
         <Route path='/' component={Home} exact />
         <Route path='/aboutus' component={AboutUs} exact />
         <Route path='/services' component={Services} exact />
       </div>
-
     </Router>
   );
 }
